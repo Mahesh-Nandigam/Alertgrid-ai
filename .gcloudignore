@@ -1,0 +1,6 @@
+node_modules/
+.next/
+.next-fresh/
+.git/
+npm-debug.log
+README.md
