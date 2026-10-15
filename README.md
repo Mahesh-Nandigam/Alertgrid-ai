@@ -1,6 +1,6 @@
 # 🛡️ AlertGrid AI: Enterprise Emergency Command Center
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://alertgrid-ai-805190767857.us-central1.run.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://alertgrid-ai.vercel.app)
 [![Tech Stack](https://img.shields.io/badge/Tech-Stack-blue?style=for-the-badge)](https://nextjs.org/)
 
 **AlertGrid AI** is a professional-grade, high-impact emergency coordination platform designed for large-scale institutions. It transforms chaotic crisis situations into organized, data-driven response operations.
@@ -22,7 +22,7 @@ AlertGrid AI provides a **centralized command intelligence hub** that:
 
 ---
 
-## 🔗 [Launch Live Command Center](https://alertgrid-ai-805190767857.us-central1.run.app)
+## 🔗 [Launch Live Command Center](https://alertgrid-ai.vercel.app)
 > **Demo Access**: Use the **"Emergency Login Bypass"** on the sign-in page for instant access to the dashboard.
 
 ---
@@ -48,7 +48,7 @@ Secure authentication system with a built-in **Cinematic Demo Suite** for flawle
 - **Logic & State**: Framer Motion, Lucide React
 - **Backend/Database**: Firebase (Auth, Firestore)
 - **AI Engine**: Google Gemini AI
-- **Infrastructure**: Docker, Google Cloud Run
+- **Infrastructure**: Vercel, Docker, Google Cloud Run
 
 ---
 
