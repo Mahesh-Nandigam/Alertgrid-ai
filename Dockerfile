@@ -1,11 +1,10 @@
-# Use the official Node.js 18 image as a parent image
-FROM node:18-alpine AS base
-
-# 1. Install dependencies only when needed
-FROM base AS deps
+# Use the official Node.js 20 LTS Alpine image
+FROM node:20-alpine AS base
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
+# 1. Install dependencies only when needed
+FROM base AS deps
 # Copy package.json and package-lock.json
 COPY package.json package-lock.json ./
 # Install dependencies including devDependencies for the build
@@ -42,7 +41,7 @@ RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
 # Copy the public folder
-# COPY --from=builder /app/public ./public
+COPY --from=builder /app/public ./public
 
 # Set the correct permission for prerender cache
 RUN mkdir .next
